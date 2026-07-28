@@ -4,10 +4,7 @@
 
 ### SWE Intern @ NESPAK · AI agent builder · CS undergrad in Lahore 🇵🇰
 
-I build things that go all the way to production — voice agents, RAG pipelines and
-multi-platform apps. Currently a **Software Engineering Intern at NESPAK**, with
-parallel internships across **AI**, **ML** and **full-stack**, plus a
-**Teaching Assistant** role at **FCCU**.
+**I build software that actually ships. Not demos that work once on my laptop.**
 
 <br/>
 
@@ -17,6 +14,40 @@ parallel internships across **AI**, **ML** and **full-stack**, plus a
 ![Profile views](https://komarev.com/ghpvc/?username=shaheerkhalid04&style=for-the-badge&color=22D3EE&label=PROFILE+VIEWS)
 
 </div>
+
+---
+
+## 👋 About
+
+Lately most of what I make involves LLMs doing real work. There's a voice agent you can
+talk to that transcribes what you said, works out on its own whether it needs to call a
+tool, and answers you out loud. I timed every stage of the pipeline and put the numbers
+in the UI, because "it feels slow" isn't something you can debug. There's another agent
+that takes a topic, goes and finds a YouTube video about it, and transcribes it, picking
+both tool calls by itself. And a study assistant that answers questions from your own
+lecture notes instead of from whatever it can find on the web.
+
+The other half of my work is full stack. I built Kanvas, a task board that runs as four
+separate clients at the same time, all sharing one Supabase backend and one Realtime
+channel, so if you capture a task in the browser it turns up on your phone without a
+refresh.
+
+Right now I'm interning in a few places at once. Software engineering at NESPAK, AI at
+Spiral Lab, machine learning at FlyRank AI, MERN full stack at Dafi Labs, and IT and
+networking at NASTP.
+
+I've also been a Teaching Assistant in the CS department at FCCU since September 2025,
+mentoring students in Python, algorithms and OOP. I run the vivas, where I care more
+about whether someone can explain their reasoning than whether they can repeat the right
+answer. I try to hold my own code to the same standard. On top of that I'm Director of
+Operations at FCSC, our computer science club, where I run workshops, hackathon teams and
+speaker events.
+
+I'm studying Computer Science at Forman Christian College University and I graduate in
+December 2027.
+
+Open to internships and collaborations, especially anything involving agents that do real
+work.
 
 ---
 
@@ -81,10 +112,10 @@ parallel internships across **AI**, **ML** and **full-stack**, plus a
 
 | Project | What it does | Stack |
 |:--|:--|:--|
-| **[Real-Time Voice AI Agent](https://github.com/shaheerkhalid04/Real-Time-Voice-AI-Agent)**<br/>[`live ↗`](https://real-time-voice-ai-agent-two.vercel.app) | Talk to it, it talks back — speech → transcription → a tool-calling LLM → natural voice, with every stage timed in the UI. | `Groq Whisper` `Llama 3.3` `ElevenLabs` `Python` |
-| **[Kanvas](https://github.com/shaheerkhalid04/kanva-task-board)**<br/>[`live ↗`](https://kanva-task-board.vercel.app) | One task board, four clients — web, Chrome extension, Android and desktop — all live-synced through a single Realtime channel. | `Next.js 16` `Expo` `Tauri + Rust` `Supabase` |
+| **[Real-Time Voice AI Agent](https://github.com/shaheerkhalid04/Real-Time-Voice-AI-Agent)**<br/>[`live ↗`](https://real-time-voice-ai-agent-two.vercel.app) | Talk to it, it talks back. Speech → transcription → a tool-calling LLM → natural voice, with every stage timed in the UI. | `Groq Whisper` `Llama 3.3` `ElevenLabs` `Python` |
+| **[Kanvas](https://github.com/shaheerkhalid04/kanva-task-board)**<br/>[`live ↗`](https://kanva-task-board.vercel.app) | One task board, four clients (web, Chrome extension, Android and desktop), all live-synced through a single Realtime channel. | `Next.js 16` `Expo` `Tauri + Rust` `Supabase` |
 | **[AI Video Transcriber](https://github.com/shaheerkhalid04/ai-video-transcribing)**<br/>[`live ↗`](https://ai-video-transcribing.vercel.app) | Give it a topic and the agent decides on its own to search YouTube, then transcribe what it found. Real tool calling, not a scripted chain. | `Groq` `SerpApi` `Gemini` `Python` |
-| **[NoteMate](https://github.com/shaheerkhalid04/notemate-hackathon)** | Upload your lecture notes, then ask questions about them — answers come from your own material, not the open web. Built at the HEC GenAI hackathon. | `Django REST` `RAG` `Embeddings` |
+| **[NoteMate](https://github.com/shaheerkhalid04/notemate-hackathon)** | Upload your lecture notes, then ask questions about them. Answers come from your own material, not the open web. Built at the HEC GenAI hackathon. | `Django REST` `RAG` `Embeddings` |
 | **[MediSearch](https://github.com/shaheerkhalid04/MediSearch)** | Best-first search over a NetworkX symptom–condition knowledge graph, weighted by co-occurrence across 1,000 simulated health profiles. | `Flask` `NetworkX` `Heuristic Search` |
 | **[Terminal Portfolio](https://github.com/shaheerkhalid04/Shaheer-Khalid-Dafi-Lab-Mern-Stack-Internship)**<br/>[`live ↗`](https://shaheerkhalid04.vercel.app) | A dark, terminal-themed developer portfolio with a working contact form, admin panel and scroll-reveal motion. | `Next.js 14` `Tailwind` `Prisma` `Supabase` |
 
@@ -100,15 +131,15 @@ parallel internships across **AI**, **ML** and **full-stack**, plus a
 
 | Role | Organisation | What I do |
 |:--|:--|:--|
-| **Software Engineering Intern** | National Engineering Services Pakistan (**NESPAK**) · *Jul 2026 – Present* | IT infrastructure and internal systems work on-site in Lahore — the engineering side of a national-scale consultancy. |
+| **Software Engineering Intern** | National Engineering Services Pakistan (**NESPAK**) · *Jul 2026 – Present* | IT infrastructure and internal systems work on-site in Lahore, at a national-scale engineering consultancy. |
 | **IT & Networking Intern** | **NASTP** Institute of Information Technology · *Jul 2026 – Present* | IT operations and network security across the institute's infrastructure. |
 | **Artificial Intelligence Intern** | **Spiral Lab** · *Jul 2026 – Present* · Remote | Neural networks and applied AI, including a [multi-model LLM summarisation benchmark](https://github.com/shaheerkhalid04/LLM-Comparison-Spiral-Lab) run across five providers on one prompt. |
 | **Machine Learning Intern** | **FlyRank AI** · *Jul 2026 – Present* · Remote | An eight-week applied ML track on content-refresh and opportunity scoring, ending in a deployed research write-up. |
-| **MERN Stack Intern** | **Dafi Labs** · *Jul 2026 – Present* · Remote | Full-stack apps on MongoDB, Express, React and Node — feature work, API integration and bug fixes in an agile team. |
+| **MERN Stack Intern** | **Dafi Labs** · *Jul 2026 – Present* · Remote | Full-stack apps on MongoDB, Express, React and Node. Feature work, API integration and bug fixes in an agile team. |
 | **Teaching Assistant, CS** | **Forman Christian College University** · *Sep 2025 – Present* | Mentor students in Python, algorithms and OOP; write and grade labs and quizzes on system design and database fundamentals; run vivas that test reasoning, not recall. |
-| **Director of Operations** | **FCSC** — Forman Computer Science Club · *Sep 2025 – Present* | Run club operations and coordinate workshops, hackathon teams and technical speaker events. |
+| **Director of Operations** | **FCSC**, Forman Computer Science Club · *Sep 2025 – Present* | Run club operations and coordinate workshops, hackathon teams and technical speaker events. |
 
-**🎓 BSc (Hons) Computer Science** — Forman Christian College University, Lahore · *expected Dec 2027*
+**🎓 BSc (Hons) Computer Science** · Forman Christian College University, Lahore · *expected Dec 2027*
 <br/>Data Structures & Algorithms · OOP · Database Systems · Operating Systems · Software Engineering · Discrete Mathematics
 
 > 🏆 **Also built at hackathons and in coursework:** **[ANON](https://github.com/shaheerkhalid04/ANON)**, a P2P decentralized voting system using blind cryptographic signatures and Byzantine Fault Tolerance (NUST Olympiad 2026) · **UniPool**, a university carpooling app with GPS ride-matching, university-email-restricted auth and safety-first features.
