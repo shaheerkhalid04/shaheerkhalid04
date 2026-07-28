@@ -1,16 +1,147 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**shaheerkhalid04/shaheerkhalid04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=7C5CFF&center=true&vCenter=true&width=700&height=45&lines=Hi%2C+I'm+Shaheer+Khalid.;CS+Student+%40+Forman+Christian+College;MERN+Stack+Intern+%40+DAFI+Labs;I+build+AI+agents+that+actually+ship." alt="Typing SVG" />
 
-Here are some ideas to get you started:
+### Full-stack developer · AI agent builder · CS undergrad in Lahore 🇵🇰
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I build things that go all the way to production — voice agents, RAG pipelines and
+multi-platform apps. Currently a **MERN Stack Intern at DAFI Labs** and a
+**Teaching Assistant** for Computer Science at **FCCU**.
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C5CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://shaheerkhalid04.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-7C5CFF?style=for-the-badge)](https://www.linkedin.com/in/shaheerkhalid004/)
+[![Email](https://img.shields.io/badge/Email-7C5CFF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaheerkhalid1404@gmail.com)
+![Profile views](https://komarev.com/ghpvc/?username=shaheerkhalid04&style=for-the-badge&color=7C5CFF&label=PROFILE+VIEWS)
+
+</div>
+
+---
+
+## 🧰 Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=7C5CFF)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=7C5CFF)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=7C5CFF)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=7C5CFF)
+![Rust](https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=7C5CFF)
+
+**Frameworks & Libraries**
+
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=7C5CFF)
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=7C5CFF)
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=7C5CFF)
+![Django REST](https://img.shields.io/badge/Django_REST-0D1117?style=for-the-badge&logo=django&logoColor=7C5CFF)
+![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=7C5CFF)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=7C5CFF)
+![Expo](https://img.shields.io/badge/React_Native_·_Expo-0D1117?style=for-the-badge&logo=expo&logoColor=7C5CFF)
+![Tauri](https://img.shields.io/badge/Tauri-0D1117?style=for-the-badge&logo=tauri&logoColor=7C5CFF)
+![Prisma](https://img.shields.io/badge/Prisma-0D1117?style=for-the-badge&logo=prisma&logoColor=7C5CFF)
+
+**AI & Data**
+
+![RAG](https://img.shields.io/badge/RAG_Pipelines-0D1117?style=for-the-badge)
+![Tool calling](https://img.shields.io/badge/LLM_Tool_Calling-0D1117?style=for-the-badge)
+![Vector embeddings](https://img.shields.io/badge/Vector_Embeddings-0D1117?style=for-the-badge)
+![Groq](https://img.shields.io/badge/Groq-0D1117?style=for-the-badge)
+![Gemini](https://img.shields.io/badge/Gemini-0D1117?style=for-the-badge&logo=googlegemini&logoColor=7C5CFF)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-0D1117?style=for-the-badge&logo=elevenlabs&logoColor=7C5CFF)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-0D1117?style=for-the-badge&logo=huggingface&logoColor=7C5CFF)
+![pandas](https://img.shields.io/badge/pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=7C5CFF)
+![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=7C5CFF)
+![Jupyter](https://img.shields.io/badge/Jupyter-0D1117?style=for-the-badge&logo=jupyter&logoColor=7C5CFF)
+
+**Tools & Platforms**
+
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=7C5CFF)
+![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=7C5CFF)
+![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=7C5CFF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=7C5CFF)
+![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=7C5CFF)
+![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=7C5CFF)
+![Postman](https://img.shields.io/badge/Postman-0D1117?style=for-the-badge&logo=postman&logoColor=7C5CFF)
+![Cursor](https://img.shields.io/badge/Cursor-0D1117?style=for-the-badge&logo=cursor&logoColor=7C5CFF)
+![PyCharm](https://img.shields.io/badge/PyCharm-0D1117?style=for-the-badge&logo=pycharm&logoColor=7C5CFF)
+
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+| Project | What it does | Stack |
+|:--|:--|:--|
+| **[Real-Time Voice AI Agent](https://github.com/shaheerkhalid04/Real-Time-Voice-AI-Agent)**<br/>[`live ↗`](https://real-time-voice-ai-agent-two.vercel.app) | Talk to it, it talks back — speech → transcription → a tool-calling LLM → natural voice, with every stage timed in the UI. | `Groq Whisper` `Llama 3.3` `ElevenLabs` `Python` |
+| **[Kanvas](https://github.com/shaheerkhalid04/kanva-task-board)**<br/>[`live ↗`](https://kanva-task-board.vercel.app) | One task board, four clients — web, Chrome extension, Android and desktop — all live-synced through a single Realtime channel. | `Next.js 16` `Expo` `Tauri + Rust` `Supabase` |
+| **[AI Video Transcriber](https://github.com/shaheerkhalid04/ai-video-transcribing)**<br/>[`live ↗`](https://ai-video-transcribing.vercel.app) | Give it a topic and the agent decides on its own to search YouTube, then transcribe what it found. Real tool calling, not a scripted chain. | `Groq` `SerpApi` `Gemini` `Python` |
+| **[NoteMate](https://github.com/shaheerkhalid04/notemate-hackathon)** | Upload your lecture notes, then ask questions about them — answers come from your own material, not the open web. Built at the HEC GenAI hackathon. | `Django REST` `RAG` `Embeddings` |
+| **[MediSearch](https://github.com/shaheerkhalid04/MediSearch)** | Best-first search over a NetworkX symptom–condition knowledge graph, weighted by co-occurrence across 1,000 simulated health profiles. | `Flask` `NetworkX` `Heuristic Search` |
+| **[Terminal Portfolio](https://github.com/shaheerkhalid04/Shaheer-Khalid-Dafi-Lab-Mern-Stack-Internship)**<br/>[`live ↗`](https://shaheerkhalid04.vercel.app) | A dark, terminal-themed developer portfolio with a working contact form, admin panel and scroll-reveal motion. | `Next.js 14` `Tailwind` `Prisma` `Supabase` |
+
+<div align="center">
+
+[![All repositories](https://img.shields.io/badge/→_see_all_repositories-7C5CFF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shaheerkhalid04?tab=repositories)
+
+</div>
+
+---
+
+## 🧭 Experience & Background
+
+**🎓 BSc (Hons) Computer Science** — Forman Christian College University, Lahore · *expected Dec 2027*
+<br/>Data Structures & Algorithms · OOP · Database Systems · Operating Systems · Software Engineering · Discrete Mathematics
+
+**💼 MERN Stack Intern** — DAFI Labs · *2026*
+<br/>Shipping full-stack products end to end — Next.js front ends, Supabase/Postgres back ends, deployed on Vercel.
+
+**🧠 ML Intern, Applied Search Intelligence** — FlyRank · *2026*
+<br/>An eight-week applied ML track on content-refresh and opportunity scoring, ending in a deployed research write-up.
+
+**👨‍🏫 Teaching Assistant, Computer Science** — FCCU · *Sep 2025 – Present*
+<br/>Mentor students in Python, algorithms and OOP; write and grade labs and quizzes across system design and database fundamentals, and run vivas that test reasoning rather than recall.
+
+**⚙️ Director of Operations** — FCSC, Forman Computer Science Club · *Sep 2025 – Present*
+<br/>Run club operations and coordinate workshops, hackathon teams and technical speaker events for the FCCU CS community.
+
+> 🏆 **Also built at hackathons and in coursework:** **[ANON](https://github.com/shaheerkhalid04/ANON)**, a P2P decentralized voting system using blind cryptographic signatures and Byzantine Fault Tolerance (NUST Olympiad 2026) · **UniPool**, a university carpooling app with GPS ride-matching, university-email-restricted auth and safety-first features.
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=shaheerkhalid04&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=7C5CFF&icon_color=7C5CFF&text_color=C9D1D9" alt="Shaheer's GitHub stats" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=shaheerkhalid04&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=7C5CFF&text_color=C9D1D9" alt="Top languages" />
+
+<br/><br/>
+
+<img height="165" src="https://streak-stats.demolab.com?user=shaheerkhalid04&hide_border=true&background=0D1117&stroke=7C5CFF&ring=7C5CFF&fire=7C5CFF&currStreakLabel=7C5CFF&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shaheerkhalid04&bg_color=0D1117&color=C9D1D9&line=7C5CFF&point=FFFFFF&area=true&area_color=7C5CFF&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
+
+</div>
+
+---
+
+<div align="center">
+
+## 🤝 Connect with me
+
+Open to internships, collaborations, and anything involving agents that do real work.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-7C5CFF?style=for-the-badge)](https://www.linkedin.com/in/shaheerkhalid004/)
+[![Email](https://img.shields.io/badge/shaheerkhalid1404@gmail.com-7C5CFF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaheerkhalid1404@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C5CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://shaheerkhalid04.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-7C5CFF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shaheerkhalid04)
+
+<sub>📍 Lahore, Pakistan · English (fluent), Urdu (native)</sub>
+
+</div>
