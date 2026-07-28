@@ -4,7 +4,7 @@
 
 ### SWE Intern @ NESPAK · AI agent builder · CS undergrad in Lahore 🇵🇰
 
-**I build software that actually ships. Not demos that work once on my laptop.**
+**Software that actually ships. Not demos that work once on my laptop.**
 
 <br/>
 
