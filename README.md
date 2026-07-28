@@ -1,19 +1,20 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=7C5CFF&center=true&vCenter=true&width=700&height=45&lines=Hi%2C+I'm+Shaheer+Khalid.;CS+Student+%40+Forman+Christian+College;MERN+Stack+Intern+%40+DAFI+Labs;I+build+AI+agents+that+actually+ship." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=22D3EE&center=true&vCenter=true&width=760&height=45&lines=Hi%2C+I'm+Shaheer+Khalid.;SWE+Intern+%40+NESPAK;CS+Student+%40+Forman+Christian+College;I+build+AI+agents+that+actually+ship." alt="Typing SVG" />
 
-### Full-stack developer · AI agent builder · CS undergrad in Lahore 🇵🇰
+### SWE Intern @ NESPAK · AI agent builder · CS undergrad in Lahore 🇵🇰
 
 I build things that go all the way to production — voice agents, RAG pipelines and
-multi-platform apps. Currently a **MERN Stack Intern at DAFI Labs** and a
-**Teaching Assistant** for Computer Science at **FCCU**.
+multi-platform apps. Currently a **Software Engineering Intern at NESPAK**, with
+parallel internships across **AI**, **ML** and **full-stack**, plus a
+**Teaching Assistant** role at **FCCU**.
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-7C5CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://shaheerkhalid04.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-7C5CFF?style=for-the-badge)](https://www.linkedin.com/in/shaheerkhalid004/)
 [![Email](https://img.shields.io/badge/Email-7C5CFF?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaheerkhalid1404@gmail.com)
-![Profile views](https://komarev.com/ghpvc/?username=shaheerkhalid04&style=for-the-badge&color=7C5CFF&label=PROFILE+VIEWS)
+![Profile views](https://komarev.com/ghpvc/?username=shaheerkhalid04&style=for-the-badge&color=22D3EE&label=PROFILE+VIEWS)
 
 </div>
 
@@ -25,48 +26,52 @@ multi-platform apps. Currently a **MERN Stack Intern at DAFI Labs** and a
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=7C5CFF)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=7C5CFF)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=7C5CFF)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=7C5CFF)
-![Rust](https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=7C5CFF)
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=22D3EE)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=22D3EE)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=22D3EE)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=22D3EE)
+![Rust](https://img.shields.io/badge/Rust-0D1117?style=for-the-badge&logo=rust&logoColor=22D3EE)
 
 **Frameworks & Libraries**
 
-![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=7C5CFF)
-![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=7C5CFF)
-![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=7C5CFF)
-![Django REST](https://img.shields.io/badge/Django_REST-0D1117?style=for-the-badge&logo=django&logoColor=7C5CFF)
-![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=7C5CFF)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=7C5CFF)
-![Expo](https://img.shields.io/badge/React_Native_·_Expo-0D1117?style=for-the-badge&logo=expo&logoColor=7C5CFF)
-![Tauri](https://img.shields.io/badge/Tauri-0D1117?style=for-the-badge&logo=tauri&logoColor=7C5CFF)
-![Prisma](https://img.shields.io/badge/Prisma-0D1117?style=for-the-badge&logo=prisma&logoColor=7C5CFF)
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=22D3EE)
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=22D3EE)
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=22D3EE)
+![Express](https://img.shields.io/badge/Express-0D1117?style=for-the-badge&logo=express&logoColor=22D3EE)
+![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=22D3EE)
+![Django REST](https://img.shields.io/badge/Django_REST-0D1117?style=for-the-badge&logo=django&logoColor=22D3EE)
+![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=22D3EE)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=22D3EE)
+![Expo](https://img.shields.io/badge/React_Native_·_Expo-0D1117?style=for-the-badge&logo=expo&logoColor=22D3EE)
+![Tauri](https://img.shields.io/badge/Tauri-0D1117?style=for-the-badge&logo=tauri&logoColor=22D3EE)
+![Prisma](https://img.shields.io/badge/Prisma-0D1117?style=for-the-badge&logo=prisma&logoColor=22D3EE)
 
 **AI & Data**
 
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-0D1117?style=for-the-badge)
 ![Tool calling](https://img.shields.io/badge/LLM_Tool_Calling-0D1117?style=for-the-badge)
 ![Vector embeddings](https://img.shields.io/badge/Vector_Embeddings-0D1117?style=for-the-badge)
+![Neural networks](https://img.shields.io/badge/Neural_Networks-0D1117?style=for-the-badge)
 ![Groq](https://img.shields.io/badge/Groq-0D1117?style=for-the-badge)
-![Gemini](https://img.shields.io/badge/Gemini-0D1117?style=for-the-badge&logo=googlegemini&logoColor=7C5CFF)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-0D1117?style=for-the-badge&logo=elevenlabs&logoColor=7C5CFF)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-0D1117?style=for-the-badge&logo=huggingface&logoColor=7C5CFF)
-![pandas](https://img.shields.io/badge/pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=7C5CFF)
-![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=7C5CFF)
-![Jupyter](https://img.shields.io/badge/Jupyter-0D1117?style=for-the-badge&logo=jupyter&logoColor=7C5CFF)
+![Gemini](https://img.shields.io/badge/Gemini-0D1117?style=for-the-badge&logo=googlegemini&logoColor=22D3EE)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-0D1117?style=for-the-badge&logo=elevenlabs&logoColor=22D3EE)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-0D1117?style=for-the-badge&logo=huggingface&logoColor=22D3EE)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=22D3EE)
+![pandas](https://img.shields.io/badge/pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=22D3EE)
+![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=22D3EE)
+![Jupyter](https://img.shields.io/badge/Jupyter-0D1117?style=for-the-badge&logo=jupyter&logoColor=22D3EE)
 
 **Tools & Platforms**
 
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=7C5CFF)
-![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=7C5CFF)
-![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=7C5CFF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=7C5CFF)
-![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=7C5CFF)
-![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=7C5CFF)
-![Postman](https://img.shields.io/badge/Postman-0D1117?style=for-the-badge&logo=postman&logoColor=7C5CFF)
-![Cursor](https://img.shields.io/badge/Cursor-0D1117?style=for-the-badge&logo=cursor&logoColor=7C5CFF)
-![PyCharm](https://img.shields.io/badge/PyCharm-0D1117?style=for-the-badge&logo=pycharm&logoColor=7C5CFF)
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=22D3EE)
+![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=22D3EE)
+![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=22D3EE)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=22D3EE)
+![SQLite](https://img.shields.io/badge/SQLite-0D1117?style=for-the-badge&logo=sqlite&logoColor=22D3EE)
+![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=22D3EE)
+![Postman](https://img.shields.io/badge/Postman-0D1117?style=for-the-badge&logo=postman&logoColor=22D3EE)
+![Cursor](https://img.shields.io/badge/Cursor-0D1117?style=for-the-badge&logo=cursor&logoColor=22D3EE)
+![PyCharm](https://img.shields.io/badge/PyCharm-0D1117?style=for-the-badge&logo=pycharm&logoColor=22D3EE)
 
 </div>
 
@@ -91,22 +96,20 @@ multi-platform apps. Currently a **MERN Stack Intern at DAFI Labs** and a
 
 ---
 
-## 🧭 Experience & Background
+## 🧭 Experience
+
+| Role | Organisation | What I do |
+|:--|:--|:--|
+| **Software Engineering Intern** | National Engineering Services Pakistan (**NESPAK**) · *Jul 2026 – Present* | IT infrastructure and internal systems work on-site in Lahore — the engineering side of a national-scale consultancy. |
+| **IT & Networking Intern** | **NASTP** Institute of Information Technology · *Jul 2026 – Present* | IT operations and network security across the institute's infrastructure. |
+| **Artificial Intelligence Intern** | **Spiral Lab** · *Jul 2026 – Present* · Remote | Neural networks and applied AI, including a [multi-model LLM summarisation benchmark](https://github.com/shaheerkhalid04/LLM-Comparison-Spiral-Lab) run across five providers on one prompt. |
+| **Machine Learning Intern** | **FlyRank AI** · *Jul 2026 – Present* · Remote | An eight-week applied ML track on content-refresh and opportunity scoring, ending in a deployed research write-up. |
+| **MERN Stack Intern** | **Dafi Labs** · *Jul 2026 – Present* · Remote | Full-stack apps on MongoDB, Express, React and Node — feature work, API integration and bug fixes in an agile team. |
+| **Teaching Assistant, CS** | **Forman Christian College University** · *Sep 2025 – Present* | Mentor students in Python, algorithms and OOP; write and grade labs and quizzes on system design and database fundamentals; run vivas that test reasoning, not recall. |
+| **Director of Operations** | **FCSC** — Forman Computer Science Club · *Sep 2025 – Present* | Run club operations and coordinate workshops, hackathon teams and technical speaker events. |
 
 **🎓 BSc (Hons) Computer Science** — Forman Christian College University, Lahore · *expected Dec 2027*
 <br/>Data Structures & Algorithms · OOP · Database Systems · Operating Systems · Software Engineering · Discrete Mathematics
-
-**💼 MERN Stack Intern** — DAFI Labs · *2026*
-<br/>Shipping full-stack products end to end — Next.js front ends, Supabase/Postgres back ends, deployed on Vercel.
-
-**🧠 ML Intern, Applied Search Intelligence** — FlyRank · *2026*
-<br/>An eight-week applied ML track on content-refresh and opportunity scoring, ending in a deployed research write-up.
-
-**👨‍🏫 Teaching Assistant, Computer Science** — FCCU · *Sep 2025 – Present*
-<br/>Mentor students in Python, algorithms and OOP; write and grade labs and quizzes across system design and database fundamentals, and run vivas that test reasoning rather than recall.
-
-**⚙️ Director of Operations** — FCSC, Forman Computer Science Club · *Sep 2025 – Present*
-<br/>Run club operations and coordinate workshops, hackathon teams and technical speaker events for the FCCU CS community.
 
 > 🏆 **Also built at hackathons and in coursework:** **[ANON](https://github.com/shaheerkhalid04/ANON)**, a P2P decentralized voting system using blind cryptographic signatures and Byzantine Fault Tolerance (NUST Olympiad 2026) · **UniPool**, a university carpooling app with GPS ride-matching, university-email-restricted auth and safety-first features.
 
@@ -116,16 +119,16 @@ multi-platform apps. Currently a **MERN Stack Intern at DAFI Labs** and a
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=shaheerkhalid04&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=7C5CFF&icon_color=7C5CFF&text_color=C9D1D9" alt="Shaheer's GitHub stats" />
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=shaheerkhalid04&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=7C5CFF&text_color=C9D1D9" alt="Top languages" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=shaheerkhalid04&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=C9D1D9" alt="Shaheer's GitHub stats" />
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=shaheerkhalid04&layout=compact&hide_border=true&langs_count=8&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9" alt="Top languages" />
 
 <br/><br/>
 
-<img height="165" src="https://streak-stats.demolab.com?user=shaheerkhalid04&hide_border=true&background=0D1117&stroke=7C5CFF&ring=7C5CFF&fire=7C5CFF&currStreakLabel=7C5CFF&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak" />
+<img height="165" src="https://streak-stats.demolab.com?user=shaheerkhalid04&hide_border=true&background=0D1117&stroke=7C5CFF&ring=22D3EE&fire=7C5CFF&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub streak" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shaheerkhalid04&bg_color=0D1117&color=C9D1D9&line=7C5CFF&point=FFFFFF&area=true&area_color=7C5CFF&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shaheerkhalid04&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&area_color=7C5CFF&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" width="100%" />
 
 </div>
 
