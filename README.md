@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=22D3EE&center=true&vCenter=true&width=760&height=45&lines=Hi%2C+I'm+Shaheer+Khalid.;SWE+Intern+%40+NESPAK;CS+Student+%40+Forman+Christian+College;I+build+AI+agents+that+actually+ship." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=22D3EE&center=true&vCenter=true&width=760&height=45&lines=Hi%2C+I'm+Shaheer+Khalid.;SWE+Intern+%40+NESPAK;CS+Student+%40+Forman+Christian+College;I+build+AI+powered+fullstack+apps." alt="Typing SVG" />
 
 ### SWE Intern @ NESPAK · AI agent builder · CS undergrad in Lahore 🇵🇰
 
