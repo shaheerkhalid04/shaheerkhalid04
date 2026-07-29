@@ -137,7 +137,7 @@ work.
 | **Machine Learning Intern** | **FlyRank AI** · *Jul 2026 – Present* · Remote | An eight-week applied ML track on content-refresh and opportunity scoring, ending in a deployed research write-up. |
 | **MERN Stack Intern** | **Dafi Labs** · *Jul 2026 – Present* · Remote | Full-stack apps on MongoDB, Express, React and Node. Feature work, API integration and bug fixes in an agile team. |
 | **Teaching Assistant, CS** | **Forman Christian College University** · *Sep 2025 – Present* | Mentor students in Python, algorithms and OOP; write and grade labs and quizzes on system design and database fundamentals; run vivas that test reasoning, not recall. |
-| **Director of Operations** | **FCSC**, Forman Computer Science Club · *Sep 2025 – Present* | Run club operations and coordinate workshops, hackathon teams and technical speaker events. |
+| **Director of Operations** | **FCSC**, Forman Computer Science Club · *Sep 2025 – Jul 2026* | Run club operations and coordinate workshops, hackathon teams and technical speaker events. |
 
 **🎓 BSc (Hons) Computer Science** · Forman Christian College University, Lahore · *expected Dec 2027*
 <br/>Data Structures & Algorithms · OOP · Database Systems · Operating Systems · Software Engineering · Discrete Mathematics
