@@ -39,9 +39,9 @@ networking at NASTP.
 I've also been a Teaching Assistant in the CS department at FCCU since September 2025,
 mentoring students in Python, algorithms and OOP. I run the vivas, where I care more
 about whether someone can explain their reasoning than whether they can repeat the right
-answer. I try to hold my own code to the same standard. On top of that I'm Director of
-Operations at FCSC, our computer science club, where I run workshops, hackathon teams and
-speaker events.
+answer. I try to hold my own code to the same standard. Up until July 2026 I was also
+Director of Operations at FCSC, our computer science club, where I ran workshops,
+hackathon teams and speaker events.
 
 I'm studying Computer Science at Forman Christian College University and I graduate in
 December 2027.
