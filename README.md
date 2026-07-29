@@ -72,6 +72,7 @@ work.
 ![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=22D3EE)
 ![Django REST](https://img.shields.io/badge/Django_REST-0D1117?style=for-the-badge&logo=django&logoColor=22D3EE)
 ![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=22D3EE)
+![Streamlit](https://img.shields.io/badge/Streamlit-0D1117?style=for-the-badge&logo=streamlit&logoColor=22D3EE)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=22D3EE)
 ![Expo](https://img.shields.io/badge/React_Native_·_Expo-0D1117?style=for-the-badge&logo=expo&logoColor=22D3EE)
 ![Tauri](https://img.shields.io/badge/Tauri-0D1117?style=for-the-badge&logo=tauri&logoColor=22D3EE)
@@ -112,6 +113,7 @@ work.
 
 | Project | What it does | Stack |
 |:--|:--|:--|
+| **[Recall](https://github.com/shaheerkhalid04/persistent-memory-chatbot)**<br/>[`live ↗`](https://recall-memory-chatbot.streamlit.app) | A chatbot that remembers you between sessions. Say "actually I'm 26 now" and the stored fact is rewritten in place, not duplicated. | `Streamlit` `Groq` `SQLite` `Mem0` |
 | **[Real-Time Voice AI Agent](https://github.com/shaheerkhalid04/Real-Time-Voice-AI-Agent)**<br/>[`live ↗`](https://real-time-voice-ai-agent-two.vercel.app) | Talk to it, it talks back. Speech → transcription → a tool-calling LLM → natural voice, with every stage timed in the UI. | `Groq Whisper` `Llama 3.3` `ElevenLabs` `Python` |
 | **[Kanvas](https://github.com/shaheerkhalid04/kanva-task-board)**<br/>[`live ↗`](https://kanva-task-board.vercel.app) | One task board, four clients (web, Chrome extension, Android and desktop), all live-synced through a single Realtime channel. | `Next.js 16` `Expo` `Tauri + Rust` `Supabase` |
 | **[AI Video Transcriber](https://github.com/shaheerkhalid04/ai-video-transcribing)**<br/>[`live ↗`](https://ai-video-transcribing.vercel.app) | Give it a topic and the agent decides on its own to search YouTube, then transcribe what it found. Real tool calling, not a scripted chain. | `Groq` `SerpApi` `Gemini` `Python` |
