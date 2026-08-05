@@ -19,13 +19,16 @@
 
 ## 👋 About
 
-Lately most of what I make involves LLMs doing real work. There's a voice agent you can
-talk to that transcribes what you said, works out on its own whether it needs to call a
-tool, and answers you out loud. I timed every stage of the pipeline and put the numbers
-in the UI, because "it feels slow" isn't something you can debug. There's another agent
-that takes a topic, goes and finds a YouTube video about it, and transcribes it, picking
-both tool calls by itself. And a study assistant that answers questions from your own
-lecture notes instead of from whatever it can find on the web.
+Lately most of what I make involves LLMs doing real work. There's a voice assistant you
+can hold a conversation with that only ever speaks from documents you gave it: retrieval
+sits inside the model call rather than beside it, so when your documents don't cover the
+question it says so instead of improvising. An earlier voice agent transcribes what you
+said, works out on its own whether it needs to call a tool, and answers you out loud — I
+timed every stage of that pipeline and put the numbers in the UI, because "it feels slow"
+isn't something you can debug. There's another agent that takes a topic, goes and finds a
+YouTube video about it, and transcribes it, picking both tool calls by itself. And a
+study assistant that answers questions from your own lecture notes instead of from
+whatever it can find on the web.
 
 The other half of my work is full stack. I built Kanvas, a task board that runs as four
 separate clients at the same time, all sharing one Supabase backend and one Realtime
