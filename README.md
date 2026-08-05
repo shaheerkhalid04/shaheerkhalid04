@@ -89,6 +89,7 @@ work.
 ![Groq](https://img.shields.io/badge/Groq-0D1117?style=for-the-badge)
 ![Gemini](https://img.shields.io/badge/Gemini-0D1117?style=for-the-badge&logo=googlegemini&logoColor=22D3EE)
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-0D1117?style=for-the-badge&logo=elevenlabs&logoColor=22D3EE)
+![Vapi](https://img.shields.io/badge/Vapi-0D1117?style=for-the-badge)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-0D1117?style=for-the-badge&logo=huggingface&logoColor=22D3EE)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=22D3EE)
 ![pandas](https://img.shields.io/badge/pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=22D3EE)
@@ -115,6 +116,7 @@ work.
 
 | Project | What it does | Stack |
 |:--|:--|:--|
+| **[Attune](https://github.com/shaheerkhalid04/realtime-rag-voice-ai-agent)**<br/>[`live ↗`](https://realtime-rag-voice-assistant.vercel.app) | Ask out loud, hear an answer your own documents support. Vapi is pointed at a custom LLM endpoint, so retrieval happens *inside* the model call → there is no path where it answers ungrounded. Passages appear beside the transcript while it is still speaking. | `Vapi` `FastAPI` `Pinecone` `Groq` |
 | **[Archivist](https://github.com/shaheerkhalid04/RAG-Knowledge-Agent)**<br/>[`live ↗`](https://rag-knowledge-agent-omega.vercel.app) | RAG over a corpus you control. Upload a document and it is indexed on the spot; delete it and its vectors go too. Every answer cites the chunk it came from and is scored for grounding. | `Next.js 16` `FastAPI` `Pinecone` `Groq` |
 | **[Recall](https://github.com/shaheerkhalid04/persistent-memory-chatbot)**<br/>[`live ↗`](https://recall-memory-chatbot.streamlit.app) | A chatbot that remembers you between sessions. Say "actually I'm 26 now" and the stored fact is rewritten in place, not duplicated. | `Streamlit` `Groq` `SQLite` `Mem0` |
 | **[Real-Time Voice AI Agent](https://github.com/shaheerkhalid04/Real-Time-Voice-AI-Agent)**<br/>[`live ↗`](https://real-time-voice-ai-agent-two.vercel.app) | Talk to it, it talks back. Speech → transcription → a tool-calling LLM → natural voice, with every stage timed in the UI. | `Groq Whisper` `Llama 3.3` `ElevenLabs` `Python` |
