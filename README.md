@@ -19,7 +19,10 @@
 
 ## 👋 About
 
-Lately most of what I make involves LLMs doing real work. There's a voice assistant you
+Lately most of what I make involves LLMs doing real work. One of them runs a newsroom
+without me: three agents pull the day's stories, cut the duplicates, write the briefing
+and file it to Slack and a spreadsheet every six hours, and nobody has to press anything.
+There's a voice assistant you
 can hold a conversation with that only ever speaks from documents you gave it: retrieval
 sits inside the model call rather than beside it, so when your documents don't cover the
 question it says so instead of improvising. An earlier voice agent transcribes what you
@@ -86,6 +89,8 @@ work.
 **AI & Data**
 
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-0D1117?style=for-the-badge)
+![CrewAI](https://img.shields.io/badge/CrewAI-0D1117?style=for-the-badge)
+![Multi-agent](https://img.shields.io/badge/Multi_Agent_Systems-0D1117?style=for-the-badge)
 ![Tool calling](https://img.shields.io/badge/LLM_Tool_Calling-0D1117?style=for-the-badge)
 ![Vector embeddings](https://img.shields.io/badge/Vector_Embeddings-0D1117?style=for-the-badge)
 ![Pinecone](https://img.shields.io/badge/Pinecone-0D1117?style=for-the-badge)
@@ -120,6 +125,7 @@ work.
 
 | Project | What it does | Stack |
 |:--|:--|:--|
+| **[Dispatch](https://github.com/shaheerkhalid04/ai-automation-news-bot)**<br/>[`live ↗`](https://dispatch-newsdesk.vercel.app) | An autonomous newsdesk. Three agents find the day's stories, cut the duplicates, write the briefing and file it to Slack and Google Sheets every six hours, with nobody pressing anything. CrewAI installs to 670 MB against Vercel's 250 MB function ceiling, so the crew runs on GitHub Actions while a TypeScript runner covers Vercel cron. Both fingerprint headlines against the spreadsheet first, so overlapping schedules never post the same story twice. | `CrewAI` `Groq` `Slack API` `Google Sheets` |
 | **[Attune](https://github.com/shaheerkhalid04/realtime-rag-voice-ai-agent)**<br/>[`live ↗`](https://realtime-rag-voice-assistant.vercel.app) | Ask out loud, hear an answer your own documents support. Vapi is pointed at a custom LLM endpoint, so retrieval happens *inside* the model call → there is no path where it answers ungrounded. Passages appear beside the transcript while it is still speaking. | `Vapi` `FastAPI` `Pinecone` `Groq` |
 | **[Archivist](https://github.com/shaheerkhalid04/RAG-Knowledge-Agent)**<br/>[`live ↗`](https://rag-knowledge-agent-omega.vercel.app) | RAG over a corpus you control. Upload a document and it is indexed on the spot; delete it and its vectors go too. Every answer cites the chunk it came from and is scored for grounding. | `Next.js 16` `FastAPI` `Pinecone` `Groq` |
 | **[Recall](https://github.com/shaheerkhalid04/persistent-memory-chatbot)**<br/>[`live ↗`](https://recall-memory-chatbot.streamlit.app) | A chatbot that remembers you between sessions. Say "actually I'm 26 now" and the stored fact is rewritten in place, not duplicated. | `Streamlit` `Groq` `SQLite` `Mem0` |
