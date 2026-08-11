@@ -77,6 +77,7 @@ work.
 ![Flask](https://img.shields.io/badge/Flask-0D1117?style=for-the-badge&logo=flask&logoColor=22D3EE)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=22D3EE)
 ![Streamlit](https://img.shields.io/badge/Streamlit-0D1117?style=for-the-badge&logo=streamlit&logoColor=22D3EE)
+![Chainlit](https://img.shields.io/badge/Chainlit-0D1117?style=for-the-badge)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=22D3EE)
 ![Expo](https://img.shields.io/badge/React_Native_·_Expo-0D1117?style=for-the-badge&logo=expo&logoColor=22D3EE)
 ![Tauri](https://img.shields.io/badge/Tauri-0D1117?style=for-the-badge&logo=tauri&logoColor=22D3EE)
@@ -126,6 +127,7 @@ work.
 | **[Kanvas](https://github.com/shaheerkhalid04/kanva-task-board)**<br/>[`live ↗`](https://kanva-task-board.vercel.app) | One task board, four clients (web, Chrome extension, Android and desktop), all live-synced through a single Realtime channel. | `Next.js 16` `Expo` `Tauri + Rust` `Supabase` |
 | **[AI Video Transcriber](https://github.com/shaheerkhalid04/ai-video-transcribing)**<br/>[`live ↗`](https://ai-video-transcribing.vercel.app) | Give it a topic and the agent decides on its own to search YouTube, then transcribe what it found. Real tool calling, not a scripted chain. | `Groq` `SerpApi` `Gemini` `Python` |
 | **[NoteMate](https://github.com/shaheerkhalid04/notemate-hackathon)** | Upload your lecture notes, then ask questions about them. Answers come from your own material, not the open web. Built at the HEC GenAI hackathon. | `Django REST` `RAG` `Embeddings` |
+| **[Image Generator](https://github.com/shaheerkhalid04/image-generator)** | Describe a picture, get it back in the chat. Built to learn Chainlit properly: the whole app is decorators and event callbacks, with no render loop anywhere. Gemini's image models turn out to be paid tier only, so it renders free by default and keeps the Gemini path switchable at runtime rather than pretending the limit isn't there. | `Chainlit` `Gemini` `Python` |
 | **[MediSearch](https://github.com/shaheerkhalid04/MediSearch)** | Best-first search over a NetworkX symptom–condition knowledge graph, weighted by co-occurrence across 1,000 simulated health profiles. | `Flask` `NetworkX` `Heuristic Search` |
 | **[Terminal Portfolio](https://github.com/shaheerkhalid04/Shaheer-Khalid-Dafi-Lab-Mern-Stack-Internship)**<br/>[`live ↗`](https://shaheerkhalid04.vercel.app) | A dark, terminal-themed developer portfolio with a working contact form, admin panel and scroll-reveal motion. | `Next.js 14` `Tailwind` `Prisma` `Supabase` |
 
