@@ -86,6 +86,7 @@ work.
 ![Tauri](https://img.shields.io/badge/Tauri-0D1117?style=for-the-badge&logo=tauri&logoColor=22D3EE)
 ![Prisma](https://img.shields.io/badge/Prisma-0D1117?style=for-the-badge&logo=prisma&logoColor=22D3EE)
 ![n8n](https://img.shields.io/badge/n8n-0D1117?style=for-the-badge&logo=n8n&logoColor=22D3EE)
+![Deno](https://img.shields.io/badge/Deno-0D1117?style=for-the-badge&logo=deno&logoColor=22D3EE)
 
 **AI & Data**
 
@@ -126,6 +127,7 @@ work.
 
 | Project | What it does | Stack |
 |:--|:--|:--|
+| **[vaultline](https://github.com/shaheerkhalid04/vaultline)**<br/>[`live ↗`](https://vaultline-ivory.vercel.app) | A file vault where the client never decides what is allowed in. Uploads go to Supabase Storage, then a Deno edge function re-downloads what actually arrived, matches magic bytes against the declared extension, derives the sha256 and mime type itself, and deletes the object if it fails, so no stored object outlives its metadata row. A text file renamed to `.pdf` gets caught. | `Supabase` `Deno Edge Functions` `Next.js 16` `Python` |
 | **[PlotPilot](https://github.com/shaheerkhalid04/n8n-property-workflow)**<br/>[`live ↗`](https://plotpilot-app.vercel.app) | An n8n pipeline that scrapes Zameen.com listings on a schedule, turns "3.7 Crore" and "1.1 Kanal" into numbers you can model on, and appends them to Google Sheets without ever writing the same listing twice. | `n8n` `Web Scraping` `Google Sheets API` `Next.js` |
 | **[Dispatch](https://github.com/shaheerkhalid04/ai-automation-news-bot)**<br/>[`live ↗`](https://dispatch-newsdesk.vercel.app) | An autonomous newsdesk. Three agents find the day's stories, cut the duplicates, write the briefing and file it to Slack and Google Sheets every six hours, with nobody pressing anything. CrewAI installs to 670 MB against Vercel's 250 MB function ceiling, so the crew runs on GitHub Actions while a TypeScript runner covers Vercel cron. Both fingerprint headlines against the spreadsheet first, so overlapping schedules never post the same story twice. | `CrewAI` `Groq` `Slack API` `Google Sheets` |
 | **[Attune](https://github.com/shaheerkhalid04/realtime-rag-voice-ai-agent)**<br/>[`live ↗`](https://realtime-rag-voice-assistant.vercel.app) | Ask out loud, hear an answer your own documents support. Vapi is pointed at a custom LLM endpoint, so retrieval happens *inside* the model call → there is no path where it answers ungrounded. Passages appear beside the transcript while it is still speaking. | `Vapi` `FastAPI` `Pinecone` `Groq` |
