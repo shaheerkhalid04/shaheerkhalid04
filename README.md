@@ -33,6 +33,12 @@ YouTube video about it, and transcribes it, picking both tool calls by itself. A
 study assistant that answers questions from your own lecture notes instead of from
 whatever it can find on the web.
 
+Some of it is closer to research. For my FlyRank capstone I spent eight weeks building a
+model to predict which web pages lose search traffic next month, on 1.3 million page-months
+of real data. On a sealed future month it tied a two line rule on accuracy and lost badly on
+the metric that actually matters, so I shipped the rule and published the negative result
+instead of the number that would have looked better.
+
 The other half of my work is full stack. I built Kanvas, a task board that runs as four
 separate clients at the same time, all sharing one Supabase backend and one Realtime
 channel, so if you capture a task in the browser it turns up on your phone without a
@@ -127,6 +133,7 @@ work.
 
 | Project | What it does | Stack |
 |:--|:--|:--|
+| **[Refresh Queue](https://github.com/shaheerkhalid04/Shaheer-Khalid-FlyRank-ML-Internship)**<br/>[`paper ↗`](https://shaheerkhalid04.github.io/Shaheer-Khalid-FlyRank-ML-Internship/) | Which page should a content editor open first? A ranked review queue built on 1.3M page-months of real search performance, with the label measured in a future window and the whole thing scored once on a sealed month. The finding is a negative one: the gradient boosted model tied a two line rule on ranking and protected 47x less at-risk traffic, so I shipped the rule and wrote up why. Deliberately leaking the answer drove AUC to 0.9997, which is how I know the harness was honest. | `Python` `DuckDB` `scikit-learn` `pandas` `Hugging Face` |
 | **[vaultline](https://github.com/shaheerkhalid04/vaultline)**<br/>[`live ↗`](https://vaultline-ivory.vercel.app) | A file vault where the client never decides what is allowed in. Uploads go to Supabase Storage, then a Deno edge function re-downloads what actually arrived, matches magic bytes against the declared extension, derives the sha256 and mime type itself, and deletes the object if it fails, so no stored object outlives its metadata row. A text file renamed to `.pdf` gets caught. | `Supabase` `Deno Edge Functions` `Next.js 16` `Python` |
 | **[PlotPilot](https://github.com/shaheerkhalid04/n8n-property-workflow)**<br/>[`live ↗`](https://plotpilot-app.vercel.app) | An n8n pipeline that scrapes Zameen.com listings on a schedule, turns "3.7 Crore" and "1.1 Kanal" into numbers you can model on, and appends them to Google Sheets without ever writing the same listing twice. | `n8n` `Web Scraping` `Google Sheets API` `Next.js` |
 | **[Dispatch](https://github.com/shaheerkhalid04/ai-automation-news-bot)**<br/>[`live ↗`](https://dispatch-newsdesk.vercel.app) | An autonomous newsdesk. Three agents find the day's stories, cut the duplicates, write the briefing and file it to Slack and Google Sheets every six hours, with nobody pressing anything. CrewAI installs to 670 MB against Vercel's 250 MB function ceiling, so the crew runs on GitHub Actions while a TypeScript runner covers Vercel cron. Both fingerprint headlines against the spreadsheet first, so overlapping schedules never post the same story twice. | `CrewAI` `Groq` `Slack API` `Google Sheets` |
@@ -156,7 +163,7 @@ work.
 | **Software Engineering Intern** | National Engineering Services Pakistan (**NESPAK**) · *Jul 2026 – Present* | IT infrastructure and internal systems work on-site in Lahore, at a national-scale engineering consultancy. |
 | **IT & Networking Intern** | **NASTP** Institute of Information Technology · *Jul 2026 – Present* | IT operations and network security across the institute's infrastructure. |
 | **Artificial Intelligence Intern** | **Spiral Lab** · *Jul 2026 – Present* · Remote | Neural networks and applied AI, including a [multi-model LLM summarisation benchmark](https://github.com/shaheerkhalid04/LLM-Comparison-Spiral-Lab) run across five providers on one prompt. |
-| **Machine Learning Intern** | **FlyRank AI** · *Jul 2026 – Present* · Remote | An eight-week applied ML track on content-refresh and opportunity scoring, ending in a deployed research write-up. |
+| **Machine Learning Intern** | **FlyRank AI** · *Jul 2026 – Present* · Remote | An eight-week applied ML track on content-refresh and opportunity scoring, ending in a [deployed research paper](https://shaheerkhalid04.github.io/Shaheer-Khalid-FlyRank-ML-Internship/) on 1.3M page-months of real search data, validated on a sealed future month. |
 | **MERN Stack Intern** | **Dafi Labs** · *Jul 2026 – Present* · Remote | Full-stack apps on MongoDB, Express, React and Node. Feature work, API integration and bug fixes in an agile team. |
 | **Teaching Assistant, CS** | **Forman Christian College University** · *Sep 2025 – Present* | Mentor students in Python, algorithms and OOP; write and grade labs and quizzes on system design and database fundamentals; run vivas that test reasoning, not recall. |
 | **Director of Operations** | **FCSC**, Forman Computer Science Club · *Sep 2025 – Jul 2026* | Run club operations and coordinate workshops, hackathon teams and technical speaker events. |
