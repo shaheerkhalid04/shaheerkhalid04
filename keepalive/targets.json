@@ -1,0 +1,101 @@
+{
+  "defaults": {
+    "timeout": 30,
+    "retries": 3,
+    "expect_status": [
+      200,
+      201,
+      204,
+      301,
+      302,
+      303,
+      307,
+      308,
+      401,
+      403,
+      405
+    ]
+  },
+  "targets": [
+    {
+      "name": "Portfolio",
+      "url": "https://shaheerkhalid04.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "vaultline",
+      "url": "https://vaultline-ivory.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "PlotPilot",
+      "url": "https://plotpilot-app.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "Dispatch",
+      "url": "https://dispatch-newsdesk.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "Attune",
+      "url": "https://realtime-rag-voice-assistant.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "Archivist",
+      "url": "https://rag-knowledge-agent-omega.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "Real-Time Voice AI Agent",
+      "url": "https://real-time-voice-ai-agent-two.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "Kanvas",
+      "url": "https://kanva-task-board.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "AI Video Transcriber",
+      "url": "https://ai-video-transcribing.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "Physiotherapist",
+      "url": "https://physiotherapist-smoky.vercel.app",
+      "type": "http"
+    },
+    {
+      "name": "Recall (Streamlit)",
+      "url": "https://recall-memory-chatbot.streamlit.app",
+      "type": "streamlit",
+      "comment": "Streamlit Community Cloud hibernates after ~7 quiet days and serves a 200 with a wake button, so ping.py inspects the body and wake_streamlit.py clicks it."
+    },
+    {
+      "name": "Attune backend",
+      "url": "https://realtime-rag-voice-assistant.vercel.app/api/py/health",
+      "type": "http",
+      "comment": "FastAPI runs as a Vercel Python function on the same origin as the UI. The health route also exercises the Pinecone and Groq config, so a green ping means more than a static page loading."
+    },
+    {
+      "name": "Archivist backend",
+      "url": "https://rag-knowledge-agent-omega.vercel.app/api/py/health",
+      "type": "http",
+      "comment": "Same shape as Attune: api/index.py deployed as a Vercel function, health route mounted under /api/py."
+    },
+    {
+      "name": "Supabase project",
+      "url": "${SUPABASE_URL}/rest/v1/",
+      "type": "supabase",
+      "enabled": false,
+      "required": false,
+      "headers": {
+        "apikey": "${SUPABASE_ANON_KEY}",
+        "Authorization": "Bearer ${SUPABASE_ANON_KEY}"
+      },
+      "comment": "Free Supabase projects pause after 7 days with no requests. Add SUPABASE_URL and SUPABASE_ANON_KEY as repository secrets, then set enabled to true. One target per project."
+    }
+  ]
+}

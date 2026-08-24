@@ -1,0 +1,103 @@
+name: keepalive
+
+# Free tiers idle out: Render spins a web service down after 15 quiet minutes,
+# Streamlit Community Cloud hibernates after about 7 quiet days and Supabase
+# pauses a project after 7. A request every 10 minutes keeps all three awake.
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'keepalive/**'
+      - '.github/workflows/keepalive.yml'
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: keepalive
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Ping every target
+        id: ping
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: python keepalive/ping.py
+
+      - name: Record the state, but only when it changed
+        run: |
+          git config user.name  'keepalive-bot'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add keepalive/state.txt
+
+          if git diff --staged --quiet; then
+            # Nothing moved. GitHub disables scheduled workflows after 60 days of
+            # repository inactivity, so leave one heartbeat behind every 20 days
+            # rather than committing an unchanged file 144 times a day.
+            last=$(git log -1 --format=%ct -- keepalive/heartbeat.txt || echo 0)
+            age=$(( ( $(date -u +%s) - ${last:-0} ) / 86400 ))
+            if [ "$age" -lt 20 ]; then
+              echo "State unchanged and last heartbeat was ${age}d ago. Nothing to commit."
+              exit 0
+            fi
+            date -u +%Y-%m-%dT%H:%MZ > keepalive/heartbeat.txt
+            git add keepalive/heartbeat.txt
+            message="chore(keepalive): heartbeat"
+          else
+            message="chore(keepalive): $(python -c "import json,pathlib; r=json.loads(pathlib.Path('keepalive/status.json').read_text()); print(f\"{r['up']}/{r['total']} awake\")")"
+          fi
+
+          git commit -m "$message"
+          # Another scheduled run may have landed first; rebase rather than fail.
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push
+
+      - name: Open or update the outage issue
+        if: steps.ping.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          body="$(python - <<'PY'
+          import json, pathlib
+          report = json.loads(pathlib.Path('keepalive/status.json').read_text())
+          down = [r for r in report['results'] if not r['ok']]
+          print(f"Checked at {report['checked_at']} - {report['up']}/{report['total']} awake.\n")
+          for entry in down:
+              print(f"- **{entry['name']}** ({entry['url']}): {entry['error']}")
+          PY
+          )"
+          existing="$(gh issue list --label keepalive --state open --limit 1 --json number --jq '.[0].number')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh label create keepalive --color B60205 --description 'Keep-alive check failed' 2>/dev/null || true
+            gh issue create --title 'Keep-alive check failed' --label keepalive --body "$body"
+          fi
+
+      - name: Close the outage issue once everything is back
+        if: steps.ping.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for number in $(gh issue list --label keepalive --state open --json number --jq '.[].number'); do
+            gh issue close "$number" --comment 'All targets responding again. Closing automatically.'
+          done
+
+      - name: Fail the run if a required target is down
+        if: steps.ping.outcome == 'failure'
+        run: exit 1

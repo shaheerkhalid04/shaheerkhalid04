@@ -1,0 +1,44 @@
+name: actions-alive
+
+# GitHub disables scheduled workflows in a repository after 60 days without
+# activity, which silently stops every cron job you own. This sweeps all of
+# them weekly and switches back on anything that was disabled for inactivity.
+#
+# Needs a personal access token with `repo` and `workflow` scope stored as the
+# KEEPALIVE_TOKEN secret; the built-in GITHUB_TOKEN cannot reach other repos.
+on:
+  schedule:
+    - cron: '23 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Re-enable every workflow disabled for inactivity
+        env:
+          GH_TOKEN: ${{ secrets.KEEPALIVE_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "KEEPALIVE_TOKEN is not set, so other repositories cannot be reached."
+            echo "Create a token with repo + workflow scope and add it as a repository secret."
+            exit 1
+          fi
+
+          revived=0
+          for repo in $(gh repo list "$OWNER" --limit 200 --no-archived --json nameWithOwner --jq '.[].nameWithOwner'); do
+            ids="$(gh api "repos/$repo/actions/workflows" --jq '.workflows[] | select(.state == "disabled_inactivity") | .id' 2>/dev/null || true)"
+            for id in $ids; do
+              name="$(gh api "repos/$repo/actions/workflows/$id" --jq '.name')"
+              echo "re-enabling $repo :: $name"
+              gh api -X PUT "repos/$repo/actions/workflows/$id/enable"
+              revived=$((revived + 1))
+            done
+          done
+
+          echo "Re-enabled $revived workflow(s)." | tee -a "$GITHUB_STEP_SUMMARY"

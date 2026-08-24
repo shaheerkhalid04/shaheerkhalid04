@@ -1,0 +1,30 @@
+name: wake-streamlit
+
+# A plain HTTP request does not always revive a hibernated Streamlit app: the
+# hibernation page answers 200 and waits for a click. This presses the button.
+on:
+  schedule:
+    - cron: '17 6 */2 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  wake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Playwright
+        run: |
+          pip install --quiet playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Wake any hibernated app
+        run: python keepalive/wake_streamlit.py
