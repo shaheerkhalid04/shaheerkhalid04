@@ -1,11 +1,13 @@
 name: actions-alive
 
 # GitHub disables scheduled workflows in a repository after 60 days without
-# activity, which silently stops every cron job you own. This sweeps all of
-# them weekly and switches back on anything that was disabled for inactivity.
+# activity, which silently stops every cron job you own. This sweeps them weekly
+# and switches back on anything disabled for inactivity.
 #
-# Needs a personal access token with `repo` and `workflow` scope stored as the
-# KEEPALIVE_TOKEN secret; the built-in GITHUB_TOKEN cannot reach other repos.
+# With the KEEPALIVE_TOKEN secret set (a personal access token carrying repo and
+# workflow scope) the sweep covers every repository you own. Without it, the
+# built-in token can still reach this one, so the keep-alive cron protects
+# itself either way.
 on:
   schedule:
     - cron: '23 5 * * 1'
@@ -13,6 +15,7 @@ on:
 
 permissions:
   contents: read
+  actions: write
 
 jobs:
   sweep:
@@ -21,17 +24,25 @@ jobs:
     steps:
       - name: Re-enable every workflow disabled for inactivity
         env:
-          GH_TOKEN: ${{ secrets.KEEPALIVE_TOKEN }}
+          USER_TOKEN: ${{ secrets.KEEPALIVE_TOKEN }}
+          FALLBACK_TOKEN: ${{ github.token }}
           OWNER: ${{ github.repository_owner }}
+          SELF: ${{ github.repository }}
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "KEEPALIVE_TOKEN is not set, so other repositories cannot be reached."
-            echo "Create a token with repo + workflow scope and add it as a repository secret."
-            exit 1
+          if [ -n "$USER_TOKEN" ]; then
+            export GH_TOKEN="$USER_TOKEN"
+            repos="$(gh repo list "$OWNER" --limit 200 --no-archived --json nameWithOwner --jq '.[].nameWithOwner')"
+          else
+            export GH_TOKEN="$FALLBACK_TOKEN"
+            repos="$SELF"
+            {
+              echo "No KEEPALIVE_TOKEN secret, so only \`$SELF\` was swept."
+              echo "Add a personal access token with repo + workflow scope to cover every repository."
+            } | tee -a "$GITHUB_STEP_SUMMARY"
           fi
 
           revived=0
-          for repo in $(gh repo list "$OWNER" --limit 200 --no-archived --json nameWithOwner --jq '.[].nameWithOwner'); do
+          for repo in $repos; do
             ids="$(gh api "repos/$repo/actions/workflows" --jq '.workflows[] | select(.state == "disabled_inactivity") | .id' 2>/dev/null || true)"
             for id in $ids; do
               name="$(gh api "repos/$repo/actions/workflows/$id" --jq '.name')"
